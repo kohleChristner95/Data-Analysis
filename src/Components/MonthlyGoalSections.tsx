@@ -10,7 +10,7 @@ const MonthlyGoalSections = ({ title, currency, percentage }: monthlyProps) => {
   return (
     <div className="monthly-goal-section">
       <div>{title}</div>
-      <div>% {percentage}</div>
+      <div>{percentage}%</div>
       <div>💲{currency}</div>
     </div>
   );
