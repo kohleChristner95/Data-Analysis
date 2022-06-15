@@ -15,9 +15,14 @@
 
 #progress-bar {
   height: 30px;
-  width: 60%;
+  width: 80%;
   border-color: black;
   border-style: solid;
   display: inline-block;
   border-radius: 25px;
+}
+
+.monthly-goal-section {
+  width: 25%;
+  display: inline-block;
 }
